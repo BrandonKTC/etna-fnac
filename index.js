@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
+var cors = require('cors');
 const app = express();
 const produitsRoute = require('./routes/produit')
 
@@ -11,22 +12,7 @@ app.use(express.urlencoded({extended:true}));
 
 app.use('/api/produits', produitsRoute)
 
-app.use(function (req, res, next) {
-
-    // Website you wish to allow to connect
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8888');
-
-    // Request methods you wish to allow
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-
-    // Request headers you wish to allow
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-
-    // Set to true if you need the website to include cookies in the requests sent
-    // to the API (e.g. in case you use sessions)
-    res.setHeader('Access-Control-Allow-Credentials', true);
-
-});
+app.use(cors())
 
 mongoose.connect(process.env.MONGO_URL,
 {useNewUrlParser: true}
