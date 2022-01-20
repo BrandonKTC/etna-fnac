@@ -9,22 +9,22 @@
     "entretien":"lavage haute température, 60 °C minimum, à vide ou avec une charge de linge minimum 1 fois par mois lavage régulier des filtres pour conserver leur efficacité"
 }
 {
-    "object":"lave vaiselle"
-    "utilisation":"consomme très peu d’eau : peut laver jusqu’à 160 pièces de vaisselle avec 10 à 12 litres d’eau. un remplissage complet de la machine permet une dimunition de la consommation d'eau "
+    "object":"lave vaiselle",
+    "utilisation":"consomme très peu d’eau : peut laver jusqu’à 160 pièces de vaisselle avec 10 à 12 litres d’eau. un remplissage complet de la machine permet une dimunition de la consommation d'eau ",
     "entretien":"un nettoyage régulier du filtre du lave vaissele  avec de l’eau chaude et du liquide vaisselle et régulièrement  débarrassée tous ces résidus permette de prolonger la durée de vie de la machine"
 }
 {
-    "object":"climatisateur"
-    "utilisation":"réglage de la température de façon à ne jamais avoir plus de 4° C de différence entre la température intérieure et le température extérieure"
+    "object":"climatisateur",
+    "utilisation":"réglage de la température de façon à ne jamais avoir plus de 4° C de différence entre la température intérieure et le température extérieure",
     "entretien":"un nettoyage régulier des filtres pouvant  être passé au lave vaiselle."
 }
 {
-    "object":"TV"
-    "utilisation":"placer la TV ou elle serait en mesure de profiter d’une ventilation adéquate Toucher l’écran LCD peut créer  des  points morts sur les pixels. Cela peut aussi affecter la qualité de l’image en général"
+    "object":"TV",
+    "utilisation":"placer la TV ou elle serait en mesure de profiter d’une ventilation adéquate Toucher l’écran LCD peut créer  des  points morts sur les pixels. Cela peut aussi affecter la qualité de l’image en général",
     "entretien":"débrancher la TV lors d'un dpart en vacance régulièrement la dépoussiérer"
 }
 {
-    "object":"Sèche linge"
-    "utilisation":"Pour un séchage naturel tout comme pour un séchage en sèche-linge, préférez en amont un essorage à vitesse très élevée (1 200 tours par minute)"
+    "object":"Sèche linge",
+    "utilisation":"Pour un séchage naturel tout comme pour un séchage en sèche-linge, préférez en amont un essorage à vitesse très élevée (1 200 tours par minute)",
     "entretien":"nettoyage régulier du filtre anti peluches pour favoriser la circulation de l’air"
 }
