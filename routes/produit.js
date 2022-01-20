@@ -9,7 +9,8 @@ router.post('/', (req,res) => {
     produit = new Produit({
         object:req.body.object,
         utilisation:req.body.utilisation,
-        entretien:req.body.entretien
+        entretien:req.body.entretien,
+        image:req.body.image
     })
 
     produit.save().then(produit => {
@@ -43,7 +44,8 @@ router.put('/:produitId', async (req,res) => {
     const updateProduit = await Produit.findByIdAndUpdate(req.params.produitId, {
         object:req.body.object,
         utilisation:req.body.utilisation,
-        entretien:req.body.entretien
+        entretien:req.body.entretien,
+        image:req.body.image
     },
     {new:true})
 
